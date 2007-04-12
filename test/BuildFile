@@ -18,7 +18,7 @@
 
 
 <library file="testVertexAssociator.cc" name=testVertexAssociator>
-<flags  SEAL_PLUGIN_NAME="testVertexAssociator">
+<flags EDM_PLUGIN=1>
 </library>
 
 
