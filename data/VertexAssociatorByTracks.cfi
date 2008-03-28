@@ -1,4 +1,0 @@
-es_module = VertexAssociatorByTracksESProducer
-{
-    double MinTrackFraction = 0.5
-}
