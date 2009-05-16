@@ -1,9 +1,13 @@
 <use name=FWCore/Framework>
 <use name=DataFormats/Common>
+<use name=CommonTools/Statistics>
 <use name=FWCore/ParameterSet>
+<use name=FWCore/Utilities>
+<use name=PhysicsTools/UtilAlgos>
 <use name=SimTracker/TrackerHitAssociation>
 <use name=SimTracker/TrackAssociation>
 <use name=SimTracker/VertexAssociation>
+<use name=SimTracker/TrackHistory>
 <use name=SimDataFormats/TrackerDigiSimLink>
 <use name=SimDataFormats/TrackingAnalysis>
 <use name=Geometry/TrackerGeometryBuilder>
@@ -16,9 +20,7 @@
 <use name=boost>
 <use name=root>
 
-
-<library file="testVertexAssociator.cc" name=testVertexAssociator>
+<library file="*.cc" name=testVertexAssociator>
 <flags EDM_PLUGIN=1>
 </library>
-
 
