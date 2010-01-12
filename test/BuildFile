@@ -3,7 +3,7 @@
 <use name=CommonTools/Statistics>
 <use name=FWCore/ParameterSet>
 <use name=FWCore/Utilities>
-<use name=PhysicsTools/UtilAlgos>
+<use name=CommonTools/UtilAlgos>
 <use name=SimTracker/TrackerHitAssociation>
 <use name=SimTracker/TrackAssociation>
 <use name=SimTracker/VertexAssociation>
